@@ -201,6 +201,9 @@ function initialiseState() {
 }
 
 window.addEventListener('load', function() {
+  if (!isPushEnabled) {
+    subscribe();
+  }
   var pushButton = document.querySelector('.js-push-button');
   pushButton.addEventListener('click', function() {
     if (isPushEnabled) {
