@@ -4,8 +4,8 @@ self.addEventListener('push', function(event) {
   console.log('Received a push message', event);
   console.log('Received a push message data', event.data);
 
-  var title = 'message from kuwa4.';
-  var body = 'We have received a push message.';
+  var title = 'APが回復しました';
+  var body = 'さっそく続きのクエストを進めましょう！！';
   var icon = '/images/icon-192x192.png';
   var tag = 'simple-push-demo-notification-tag';
 
