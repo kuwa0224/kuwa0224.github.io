@@ -6,7 +6,7 @@ self.addEventListener('push', function(event) {
 
   var title = 'APが回復しました';
   var body = 'さっそく続きのクエストを進めましょう！！';
-  var icon = '/images/icon-192x192.png';
+  var icon = '/images/granblue.jpeg';
   var tag = 'simple-push-demo-notification-tag';
 
   event.waitUntil(
